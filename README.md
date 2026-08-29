@@ -1,0 +1,2 @@
+# euid
+Emoji Unique IDentifier
