@@ -1,6 +1,6 @@
 # EUID (Emoji Unique Identifier)
 
-**EUID (Emoji Unique Identifier)**는 기존의 UUID, CUID와 같은 영숫자/16진수 기반 식별자 체계를 넘어, **유니코드 이모지(Emoji)를 활용해 시각적 직관성과 인간 친화성을 극대화한 고유 식별자(ID) 생성 기술**입니다.
+**EUID (Emoji Unique Identifier)** 는 기존의 UUID, CUID와 같은 영숫자/16진수 기반 식별자 체계를 넘어, **유니코드 이모지(Emoji)를 활용해 시각적 직관성과 인간 친화성을 극대화한 고유 식별자(ID) 생성 기술**입니다.
 
 ## Key Features
 
