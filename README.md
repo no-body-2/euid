@@ -27,3 +27,4 @@
 |날짜|진행사항|비고|
 |:-:|:-:|:-:|
 |2026-09-01|Initialize Project|EUID 이름을 그대로 사용하는게 맞을까?|
+|2026-09-02|Emoji Table and Check Logic|Emojo Only로 사용하고 Hybrid 형태도 제공할 것|

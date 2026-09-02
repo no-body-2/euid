@@ -1,0 +1,12 @@
+# Source & Configs
+src/
+tests/
+scripts/
+tsup.config.ts
+tsconfig.json
+vitest.config.ts
+.github/
+.gitignore
+
+# Logs
+*.log
