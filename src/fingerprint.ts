@@ -12,4 +12,24 @@ function fnv1a32(str: string): number {
   return hash >>> 0;
 }
 
-// TODO 20 bit function write & learn about fnv1a32
+/**
+ * Create 20 bit Process/ENV Fingerprint Hash
+ */
+export function getFingerprint20Bits(customSeed?: string): number {
+  let envStr = customSeed || "";
+
+  if (!envStr) {
+    if (typeof process !== "undefined" && process.pid) {
+      envStr += `node_${process.pid}_${process.arch}}`;
+    } else if (typeof location !== "undefined") {
+      envStr = `browser_${location.host}_${navigator.userAgent}`;
+    } else {
+      envStr += `random_${Math.random()}`;
+    }
+  }
+
+  const hash32 = fnv1a32(envStr);
+
+  // Return 0 ~ 0xFFFFF
+  return hash32 & 0xfffff;
+}
